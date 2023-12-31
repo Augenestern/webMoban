@@ -29,7 +29,7 @@
 
 <script setup lang="ts">
 
-let input = ref()
+let input:any = ref()
 let currentPage = ref(1)
 let pageSize = ref(10)
 const handleCurrentChange = () => {
