@@ -11,7 +11,6 @@ interface ReqStatus {
     navStatus: string
 }
  
- 
 // Res是返回的参数，T是泛型，需要自己定义，返回对数统一管理***
 type Res<T> = Promise<ItypeAPI<T>>;
 // 一般情况下响应数据返回的这三个参数，

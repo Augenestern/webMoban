@@ -42,7 +42,4 @@ export default defineConfig({
 			"@": resolve(__dirname, "./src")
 		}
 	},
-	server:{
-		port:3000,
-	}
 })
